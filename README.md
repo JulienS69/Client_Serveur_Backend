@@ -21,6 +21,7 @@ https://zupimages.net/viewer.php?id=22/18/05mg.png
 
 
 Script SQL  : 
+```sql
 
 CREATE TABLE Client(
    IdClient INT,
@@ -53,3 +54,4 @@ CREATE TABLE CompteClient(
    FOREIGN KEY(IdClient) REFERENCES Client(IdClient),
    FOREIGN KEY(IdCompte) REFERENCES Compte(IdCompte)
 );
+```
